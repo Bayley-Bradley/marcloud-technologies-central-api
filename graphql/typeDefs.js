@@ -8,4 +8,4 @@ module.exports = gql`
     owner: Object
     admins: Array
   }
-`
+`;
