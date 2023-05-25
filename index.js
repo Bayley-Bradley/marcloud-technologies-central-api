@@ -3,7 +3,6 @@ const { ApolloServer } = require("apollo-server");
 const mongoose = require("mongoose");
 
 const MONGODB = process.env["CONNECTION_STRING"];
-console.log(MONGODB);
 const PORT = process.env.PORT || 5000;
 
 const typeDefs = require("./graphql/typeDefs");

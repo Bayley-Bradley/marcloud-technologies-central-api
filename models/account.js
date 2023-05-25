@@ -1,7 +1,7 @@
 const { model, Schema } = require("mongoose");
 
 const accountSchema = new Schema({
-  created: Date,
+  created: String,
   createdBy: String,
   products: Object,
   owner: Object,

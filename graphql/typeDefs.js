@@ -2,7 +2,7 @@ const { gql } = require("apollo-server");
 
 module.exports = gql`
   type Account {
-    created: Date
+    created: String
     createdBy: String
     active: Boolean
     products: [Product]
